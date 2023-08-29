@@ -6,6 +6,7 @@ const config: Config = {
     extend: {
       gridTemplateColumns: {
         app: 'minmax(18rem, 20rem) 1fr',
+        form: 'minmax(7.5rem, 17.5rem) minmax(25rem, 1fr) minmax(0, 15rem)',
       },
 
       screens: {
@@ -15,10 +16,6 @@ const config: Config = {
         'desktop-fullHD': '1920',
         'desktop-quadHD': '2560',
         'desktop-4k': '3840',
-      },
-
-      colors: {
-        junior: '#8257e6',
       },
 
       fontSize: {
