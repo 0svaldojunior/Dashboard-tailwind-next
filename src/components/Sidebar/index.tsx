@@ -7,7 +7,7 @@ import {
   LifeBuoy,
   Search,
   SquareStack,
-  Users,
+  Users
 } from 'lucide-react'
 import { InputControl, InputPrefix, InputRoot } from '../Input'
 import { Logo } from './Logo'
