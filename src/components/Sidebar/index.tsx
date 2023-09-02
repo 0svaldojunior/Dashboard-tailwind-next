@@ -15,6 +15,7 @@ import {
 } from 'lucide-react'
 import { Button } from '../Button'
 import { InputControl, InputPrefix, InputRoot } from '../Input'
+import { ChangeTheme } from './ChangeTheme'
 import { Logo } from './Logo'
 import { NavItem } from './NavItem'
 import { Profile } from './Profile'
@@ -56,6 +57,7 @@ export function Sidebar() {
           <nav className="space-y-0.5">
             <NavItem title="Support" icon={LifeBuoy} />
             <NavItem title="Settings" icon={Cog} />
+            <ChangeTheme />
           </nav>
 
           <UsedSpaceWidget />
