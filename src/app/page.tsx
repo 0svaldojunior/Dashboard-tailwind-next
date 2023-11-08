@@ -1,4 +1,4 @@
-import { Button } from '@/components/Button'
+import { Bold, Italic, Link, List, ListOrdered, Mail } from 'lucide-react'
 import {
   FileInputControl,
   FileInputFileList,
@@ -6,12 +6,13 @@ import {
   FileInputRoot,
   FileInputTrigger
 } from '@/components/Form/FileInput'
+import { InputControl, InputPrefix, InputRoot } from '@/components/Input'
+
+import { Button } from '@/components/Button'
 import { Select } from '@/components/Form/Select'
 import { SelectItem } from '@/components/Form/Select/SelectItem'
-import { Textarea } from '@/components/Form/Textarea'
-import { InputControl, InputPrefix, InputRoot } from '@/components/Input'
 import { SettingsTabs } from '@/components/SettingsTabs'
-import { Bold, Italic, Link, List, ListOrdered, Mail } from 'lucide-react'
+import { Textarea } from '@/components/Form/Textarea'
 
 export default function Home() {
   return (

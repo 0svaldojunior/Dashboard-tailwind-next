@@ -1,7 +1,9 @@
 'use client'
 
-import { User } from 'lucide-react'
 import { ComponentProps, useMemo } from 'react'
+
+import Image from 'next/image'
+import { User } from 'lucide-react'
 import { useFileInput } from './Root'
 
 export type ImagePreviewProps = ComponentProps<'div'>
@@ -28,7 +30,7 @@ export function ImagePreview(props: ImagePreviewProps) {
     )
   } else {
     return (
-      <img
+      <Image
         src={previewURL}
         alt=""
         className="h-16 w-16 rounded-full object-cover"
